@@ -1,8 +1,7 @@
-const { gql } = require("apollo-sever");
+const { gql } = require("apollo-server");
 
 const typeDefs = gql`
-  type: Link {
-    id: Int!
+  type Link {
     url: String!
     slug: String!
   }
